@@ -6,9 +6,12 @@ export default function App() {
 
   return (
     <>
-      <Header/>
-      <Outlet/>
-      <Footer/>
+      
+      <div className="">
+        <Header/>
+        <Outlet/>
+        <Footer/>
+      </div>
     </>
   )
 }
